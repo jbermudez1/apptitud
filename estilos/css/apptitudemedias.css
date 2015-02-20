@@ -1,0 +1,52 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.banner p{
+			padding-top: 8em;
+		}
+	/*nav{
+		position: absolute;
+		z-index: 10;
+		}*/
+	/*nav .logo{
+		float: left;
+	}*/
+
+	section{
+		padding-left: 5em;
+		padding-right: 5em;
+	}
+
+	.columna{
+			width: 75%;
+			display: inline-block;
+			padding-left: 2em;
+			padding-right: 2em;
+	}
+
+
+
+
+	.columna2{
+			width: 15%;
+			display: inline-block;
+			padding-left: 2em;
+			padding-right: 2em;
+	}
+
+	.formcolumna{
+			width: 30%;
+			display: inline-block;
+			padding-left: 2em;
+			padding-right: 2em;
+	}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

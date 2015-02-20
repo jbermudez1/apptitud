@@ -27,21 +27,15 @@
 	}
 
 
-
-
 	.columna2{
-			width: 15%;
+			width: 20%;
 			display: inline-block;
 			padding-left: 2em;
 			padding-right: 2em;
+			text-align: center;
 	}
 
-	.formcolumna{
-			width: 30%;
-			display: inline-block;
-			padding-left: 2em;
-			padding-right: 2em;
-	}
+
 
  }
 

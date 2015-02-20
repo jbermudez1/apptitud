@@ -70,12 +70,12 @@ section{
 	position: relative;
 	background-color: #eeeeee;
 	padding-bottom: 2em;
+	
 }
 
 .columna{
 	margin-bottom: 1.5em;
 	font-size: 1em;
-	font-weight: 300;
 
 }
 
@@ -85,14 +85,17 @@ section{
 }
 
 .btn {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 1em;
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
   background: #68d111;
-  padding: 10px 20px 10px 20px;
+  padding-top:0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
   text-decoration: none;
 }
 
@@ -106,89 +109,3 @@ section{
 
 
 
-
-.texto{
-	color: #484848;
-}
-
-.inter{
-	line-height: 0.8em;
-}
-
-
-.formulario{
-	margin-top: 1em;
-	text-align: left;
-	clear: both;
-	position: relative;
-}
-
-
-
-
-
-.columna .subt{
-	font-size: 0.7em;
-}
-
-.formcolumna{
-	margin-bottom:1.5em;
-}
-
-
-.tit1{
-	font-size: 2em;
-	font-weight: 300;
-}
-
-.tit2{
-	font-size: 3em;
-}
-
-.subt1{
-	font-size: 1.3em;
-}
-
-.subt2{
-	font-size: 1em;
-}
-
-.azul{
-	margin-top: 4em;
-	background-color: #1697d4;
-	padding-top: 5em;
-	padding-bottom:2em;
-}
-
-.secciones{
-	margin-top:4em;
-	margin-bottom: 4em;
-}
-.blanco{
-	color: #ffffff;
-}
-
-.ejemplo{
-	background-color: #f6f6f6;
-	height: 3em;
-width: 20em;
--moz-border-radius-bottomright: 20px;
-border-bottom-right-radius: 20px;
--moz-border-radius-bottomleft: 20px;
-border-bottom-left-radius: 20px;
--moz-border-radius-topright: 20px;
-border-top-right-radius: 20px;
--moz-border-radius-topleft: 20px;
-border-top-left-radius: 20px;
-}
-
-.mensaje{
-	height: 7em;
-}
-
-
-.forma{
-	padding-top:0.8em;
-	padding-left: 1.5em;
-	color: gray;
-}

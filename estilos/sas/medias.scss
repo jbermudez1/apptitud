@@ -1,0 +1,20 @@
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+	.banner{
+	background-image: url(../../img/banner.png);
+	background-color:#253135;
+	background-position: right top;
+	background-repeat: no-repeat;
+	height: 530px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {  }
